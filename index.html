@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EJ-Integrador</title>
+        <link rel="stylesheet" href="/assets/style.css">
+        <link rel="stylesheet" href="/assets/mediaqueries.css">
+        <link rel="stylesheet" href="animaciones.css">
+        <link rel="icon" type="image/png" href="/assets/Aladdin-Logo-Individual.png">
+        <script src="https://kit.fontawesome.com/564e5a502c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <img src="assets/Aladdin-Logo-Individual.png" alt="logo"
+                class="logo">
+           
+<!-- Nav-bar -->
+      <nav class="navbar">
+        <label for="menu-toggle" class="menu-label">
+        <i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="menu-toggle" />
+        <ul class="navbar-list">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="#hero">Nosotros</a>
+          </li>
+          <li>
+            <a href="#products">Agregados</a>
+          </li>
+          <li>
+            <a href="login.html" target="_blank">Inicio de sesion</a>
+          </li>
+        
+        </ul>
+        
+        <label for="cart-toggle" class="cart-label">
+          <i class="fa-sharp fa-solid fa-cart-plus"></i>
+        </label>
+        <input type="checkbox" id="cart-toggle" />
+        <div class="cart">
+          <h2>TUS AGREGADOS</h2>
+          <div class="cart-item">
+            <img src="/assets/img-product/DJalladin.jpg" alt="un producto" />
+            <div class="item-info">
+              <h3 class="item-title">DJ/MUSICA</h3>
+              <p class="item-bid">Current Bid</p>
+              <span class="item-price">$20000</span>
+            </div>
+            <div class="item-handler">
+          
+              <span class="item-quantity">AGREGADO</span>
+          
+            </div>
+          </div>
+          <div class="cart-item">
+            <img src="/assets/img-product/catering-alladin.jpg" alt="un producto" />
+            <div class="item-info">
+              <h3 class="item-title">CATERING</h3>
+              <p class="item-bid">Current Bid</p>
+              <span class="item-price">$13000</span>
+            </div>
+            <div class="item-handler">
+           <span class="item-quantity">AGREGADO</span>
+            </div>
+          </div>
+
+          <div class="cart-item">
+            <img src="/assets/img-product/sowmanalladin.jpeg" alt="un producto" />
+            <div class="item-info">
+              <h3 class="item-title">LOCUTOR</h3>
+              <p class="item-bid">Current Bid</p>
+              <span class="item-price">$15000</span>
+            </div>
+            <div class="item-handler">
+              <span class="item-quantity">AGREGADO</span>
+            </div>
+          </div>
+
+          <div class="cart-item">
+            <img src="/assets/img-product/tragosa-alladin.webp" alt="un producto" />
+            <div class="item-info">
+              <h3 class="item-title">Messi</h3>
+              <p class="item-bid">Current Bid</p>
+              <span class="item-price">$14000</span>
+            </div>
+            <div class="item-handler">
+           <span class="item-quantity">AGREGADO</span>
+            </div>
+          </div>
+
+          <span class="divider"></span>
+
+          <div class="cart-total">
+            <p>Total:</p>
+            <span>$62000</span>
+          </div>
+          <button class="btn-add">Comprar</button>
+        </div>
+
+        <div class="overlay"></div>
+      </nav>          
+     <!-- Nav-Bar    -->
+        </header>
+        <main>
+            <section id="hero">
+                <div class="hero-info">
+                    <h1>Comparte una noche unica con ,
+                        Salon de eventos Alladin</h1>
+                    <p>Nuestro salon de eventos es el primero en Buenos Aires en
+                        tener temática sobre el mundo de Alladin</p>
+                    <a href="#">Mas Info</a>
+                </div>
+                <div class="hero-img">
+                    <img src="assets/salon.jpeg" alt="esto es una imagen">
+                </div>
+            </section>
+
+            <section id="about-us">
+
+            </section>
+
+<!-- PRODUCTOS -->
+
+            <section id="products">
+                <h2>Nuestros productos</h2>
+                <div id="about-product">
+                    
+                    <div class="caja-product">
+                        <img src="assets/img-product/DJalladin.jpg"
+                            alt="producto1">
+                        <h3>Servicio de DJ/Música</h3>
+                        <p>DJ en vivo toda la noche <br>con todos los ritmos.</p>
+                        <div class="bottom-product">
+                            <span class="price">$13000</span>
+                            <a href="#">Agregar</a>
+                        </div>
+                    </div>
+
+                    <div class="caja-product">
+                        <img src="assets/img-product/catering-alladin.jpg"
+                            alt="producto2">
+                        <h3>Servicio de Catering</h3>
+                        <p>Menu vegano a disposición<br> de todos.
+                        </p>
+                        <div class="bottom-product">
+                            <span class="price">$20000</span>
+                            <a href="#">Agregar</a>
+                        </div>
+
+                    </div>
+
+                    <div class="caja-product">
+                        <img src="assets/img-product/sowmanalladin.jpeg"
+                            alt="producto3">
+                        <h3>Servicio de Locutor</h3>
+                        <p>Presentación de la fiesta y de <br>los eventos dentro
+                            de las fiestas.</p><div class="bottom-product">
+                            <span class="price">$15000</span>
+                            <a href="#">Agregar</a>
+                        </div>
+                    </div>
+
+                    <div class="caja-product">
+                        <img src="assets/img-product/tragosa-alladin.webp"
+                            alt="producto4">
+                        <h3>Servicio de Tragos</h3>
+                        <p>Preparación de tragos a elección <br>y barra libre
+                            toda la noche.</p>
+                        <div class="bottom-product">
+                            <span class="price">$14000</span>
+                            <a href="#">Agregar</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="contact-me">
+                
+                <div id="contact">
+                    <h2>Contacto</h2>
+                    <form action="/my-handling-form-page" method="post" class="form">
+ 
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="user_name" >
+  <label for="last-name">Apellido:</label>
+    <input type="name" id="last-name" name="user_last-name">
+    <label for="mail">Correo electrónico:</label>
+    <input type="mail" id="mail" name="user_mail">
+  <label for="tel">Teléfono:</label>
+    <input type="tel" id="tel" name="user_tel">
+    <label for="msg">Mensaje:</label>
+    <textarea id="msg" name="user_message"></textarea>
+    <button id="btn-contact" type="submit">Envíe su mensaje</button>
+ 
+</form>
+                    <div id="info">
+                        <p>Info dirección</p>
+                        <p>Av. Alicia Moreau de Justo 350, C1107 CABA
+                            <p>telefono: 1123995265</p>
+                            <p>mail: araya.i.facu@gmail.com</p>
+                        </p>
+                    </div>
+                </div>
+                <div id="map">
+                <div style="width: 700px;position: static;" >
+                    <iframe width="650" height="600" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=google%2C%20argentina+(google)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed"
+                        frameborder="0" scrolling="no" marginheight="0"
+                        marginwidth="0"></iframe>
+                        <div style="position: absolute;
+                        width: 80%;
+                        bottom: 10px;
+                        left: 0;
+                        right:0;
+                        margin-left: auto;
+                        margin-right: auto;
+                        
+                        color: #000;
+                        text-align: center;">
+                        <small style="line-height:
+                            1.8;font-size: 2px;background: #fff;" >Powered by <a
+                                href="http://www.googlemapsgenerator.com/nl/">gmapgen
+                                nl</a> & <a
+                                href="https://mgacasinoutansvensklicens.com/">mgacasinoutansvensklicens</a>
+                            </small>
+                            </div>
+                            </div>
+                                </div>
+                            </section>
+
+        </main>
+        <footer id="pie">
+            <p>Hecho por Araya Web Dev</p>
+        </footer>
+
+    </body>
+</html>

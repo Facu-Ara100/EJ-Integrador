@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+
+:root {
+    --background: #020126;
+    --purpura: #8857F2;
+    --purpura-clear: #3530D9;
+    --purpura-dark: #2E29A6;
+    --txt-product-d: #d9d7ffb5;
+    --txt: #eae9ff;
+    --gradient: linear-gradient(98.81deg,
+            #8857F2 -0.82%,
+            #3530D9 101.53%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Aladin', cursive;
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--txt);
+}
+
+/* menu hamburguesa */
+.overlay {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display: none;
+}
+
+#cart-toggle:checked~.overlay {
+    display: block;
+}
+
+#menu-toggle:checked~.overlay {
+    display: block;
+}
+
+.navbar-list li {
+    position: relative;
+    padding: 0;
+}
+
+.navbar-list li a::after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: var(--text-white);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.15s ease;
+}
+
+.navbar-list li a:hover::after {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+}
+
+.cart-icon:hover {
+    color: var(--purpura);
+    border-color: var(--electric);
+    transition: all 0.2s ease-in;
+}
+
+
+.btn-add:hover,
+.hero-info a:hover {
+    background-color: var(--purpura-clear);
+    transition: all 0.2s ease-in;
+}

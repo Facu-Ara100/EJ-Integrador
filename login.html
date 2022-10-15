@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/assets/mediaqueries.css">
+    <link rel="stylesheet" href="animaciones.css">
+    <link rel="icon" type="image/png" href="/assets/Aladdin-Logo-Individual.png">
+    <script src="https://kit.fontawesome.com/564e5a502c.js" crossorigin="anonymous"></script>
+    <title>login-alladin</title>
+</head>
+
+<body>
+    <header>
+        <img src="assets/Aladdin-Logo-Individual.png" alt="logo" class="logo">
+        <nav class="navbar">
+            <label for="menu-toggle" class="menu-label">
+                  <i class="fa-solid fa-bars"></i>
+            </label>
+            <input type="checkbox" id="menu-toggle" />
+            <ul class="navbar-list">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#hero">Nosotros</a>
+                </li>
+                <li>
+                    <a href="#products">Agregados</a>
+                </li>
+                <li>
+                    <a href="login.html" target="_blank">Inicio de sesion</a>
+                </li>
+
+            </ul>
+            <!-- Menu -->
+            <label for="cart-toggle" class="cart-label">
+               <i class="fa-sharp fa-solid fa-cart-plus"></i>
+            </label>
+            <input type="checkbox" id="cart-toggle" />
+            <div class="cart">
+                <h2>TUS AGREGADOS</h2>
+                <div class="cart-item">
+                    <img src="/assets/img-product/DJalladin.jpg" alt="un producto" />
+                    <div class="item-info">
+                        <h3 class="item-title">DJ/MUSICA</h3>
+                        <p class="item-bid">Current Bid</p>
+                        <span class="item-price">$20000</span>
+                    </div>
+                    <div class="item-handler">
+
+                        <span class="item-quantity">AGREGADO</span>
+
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="/assets/img-product/catering-alladin.jpg" alt="un producto" />
+                    <div class="item-info">
+                        <h3 class="item-title">CATERING</h3>
+                        <p class="item-bid">Current Bid</p>
+                        <span class="item-price">$13000</span>
+                    </div>
+                    <div class="item-handler">
+                        <span class="item-quantity">AGREGADO</span>
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <img src="/assets/img-product/sowmanalladin.jpeg" alt="un producto" />
+                    <div class="item-info">
+                        <h3 class="item-title">LOCUTOR</h3>
+                        <p class="item-bid">Current Bid</p>
+                        <span class="item-price">$15000</span>
+                    </div>
+                    <div class="item-handler">
+                        <span class="item-quantity">AGREGADO</span>
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <img src="/assets/img-product/tragosa-alladin.webp" alt="un producto" />
+                    <div class="item-info">
+                        <h3 class="item-title">Messi</h3>
+                        <p class="item-bid">Current Bid</p>
+                        <span class="item-price">$14000</span>
+                    </div>
+                    <div class="item-handler">
+                        <span class="item-quantity">AGREGADO</span>
+                    </div>
+                </div>
+
+
+                <div class="cart-total">
+                    <p>Total:</p>
+                    <span>$62000</span>
+                </div>
+                <button class="btn-add">Comprar</button>
+            </div>
+
+            <div class="overlay"></div>
+        </nav>
+        <!-- Nav-Bar    -->
+
+    </header>
+
+    <main>
+        <div id="hero">
+            <div id="cuerpo-login">
+                <div id="cont-cuerpo">
+                 
+
+                        <h2>Inicio de sesion</h2>
+                        <form action="#" method="post">
+                            <div class="contenedor-input">
+                                <label>
+                                    Usuario <span class="req">*</span>
+                                </label>
+                                <input type="text" required>
+                            </div>
+
+                            <div class="contenedor-input">
+                                <label>
+                                    Contraseña <span class="req">*</span>
+                                </label>
+                                <input type="password" required>
+                            </div>
+                             <input type="submit" class="button button-block" value="Iniciar Sesión">
+                        </form>
+                        <div id="hover-regist">
+                            <a href="/registro.html" target="_blank">
+                               <p>Todadavia no estas registrado?</p> </a>
+                        </div>
+                
+                        
+                    </div>
+ <div class="img-log-reg"><img src="assets/img-R-L/login.jpg" alt=""></div>
+                    
+
+
+            </div>
+
+        </div>
+        </div>
+
+    </main>
+
+    <footer id="pie">
+        <p>Hecho por Araya Web Dev</p>
+    </footer>
+</body>
+
+</html>
